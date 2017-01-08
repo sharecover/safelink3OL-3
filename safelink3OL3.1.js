@@ -25,7 +25,7 @@ if(x=="1"){xxx="visit-link-1.html"}
 if(x=="2"){xxx="visit-link-2.html"}
 if(x=="3"){xxx="visit-link-3.html"}
 if(x=="4"){xxx="visit-link-4.html"}
-if(x=="5"){xxx="visit-link-5.html"}a_to_ve[i].href="http://www.openlink.us/p/visit-link.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="5"){xxx="visit-link-5.html"}a_to_ve[i].href="http://www.openlink.us/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
